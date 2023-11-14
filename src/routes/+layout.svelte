@@ -12,18 +12,23 @@
 
 	<svelte:fragment slot="sidebarLeft">
 		<div>
-			<ul class="flex flex-col h-screen text-center justify-evenly w-44 bg-slate-600">
-				<li class="hover:text-red-500"><a href="#">Home</a></li>
-				<li class="hover:text-red-500"><a href="#">About</a></li>
-				<li class="hover:text-red-500"><a href="#">Contact</a></li>
-				<li class="hover:text-red-500"><a href="#">Prices</a></li>
+			<ul class="flex flex-col h-screen text-center justify-evenly w-44 bg-gradient-four">
+				<a href="">
+					<li class="hover:text-red-500">Home</li>
+				</a><a href="">
+					<li class="hover:text-red-500">About</li>
+				</a><a href="">
+					<li class="hover:text-red-500">Contact</li>
+				</a><a href="">
+					<li class="hover:text-red-500">Prices</li>
+				</a>
 			</ul>
 		</div>
 	</svelte:fragment>
 
 	<svelte:fragment slot="pageHeader">
 		<div class="text-5xl text-center">
-			<h1>Hello</h1>
+			<h1 class="gradient-heading">Hello</h1>
 		</div>
 	</svelte:fragment>
 
