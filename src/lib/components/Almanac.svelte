@@ -15,7 +15,7 @@
 <section class="h-full px-10 pt-10">
 	<div class="flex justify-between">
 		<NavigationButton buttonDescription="Previous" click={previousImage} />
-		<h2 class="text-5xl link-face">Dragon Almanac</h2>
+		<h2 class="text-5xl link-face gradient-heading">Dragon Almanac</h2>
 		<NavigationButton buttonDescription="Next" click={nextImage} />
 	</div>
 	<div
@@ -44,3 +44,22 @@
 		</div>
 	</div>
 </section>
+
+<style lang="postcss">
+	.gradient-heading{
+		@apply bg-gradient-to-r from-slate-400 via-zinc-300 to-gray-500 bg-clip-text text-transparent;
+		animation: myAnim 4500ms cubic-bezier(0.11, 0, 0.5, 0) 1500ms infinite normal both;
+	}
+	@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+</style>
