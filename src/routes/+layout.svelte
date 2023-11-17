@@ -2,13 +2,12 @@
 
 	import '../app.postcss';
 
-	import { AppShell, LightSwitch, storePopup, initializeStores } from '@skeletonlabs/skeleton';
+	import { AppShell, LightSwitch, initializeStores, storePopup, } from '@skeletonlabs/skeleton';
 	// Floating UI for Popups
-	initializeStores();
 
 	import { Modal, getModalStore } from '@skeletonlabs/skeleton';
-	const modalStore = getModalStore();
-	
+	initializeStores();
+
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
@@ -19,7 +18,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<div
-			class="absolute flex justify-between w-full bg-opacity-75 bg-slate-500 trans dark:bg-slate-800 dark:bg-opacity-75"
+			class="absolute flex justify-between w-full bg-opacity-75 bg-slate-500 trans dark:bg-slate-800 dark:bg-opacity-75 mb-36"  
 		>
 			<div class="p-5">
 				<span><img src="/images/logo.jpg" alt="Logo" class="w-20 h-auto" /></span>
