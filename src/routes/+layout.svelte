@@ -1,17 +1,21 @@
 <script>
+
 	import '../app.postcss';
-	import { AppShell } from '@skeletonlabs/skeleton';
-	import { LightSwitch } from '@skeletonlabs/skeleton';
-	import Footer from '../lib/components/Footer.svelte';
+
+	import { AppShell, LightSwitch, storePopup, initializeStores } from '@skeletonlabs/skeleton';
 	// Floating UI for Popups
-	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
-	import { storePopup } from '@skeletonlabs/skeleton';
-	import { initializeStores } from '@skeletonlabs/skeleton';
-
 	initializeStores();
-	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
-</script>
 
+	import { Modal, getModalStore } from '@skeletonlabs/skeleton';
+	const modalStore = getModalStore();
+	
+	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
+	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+
+
+	import Footer from '../lib/components/Footer.svelte';
+</script>
+<Modal />
 <AppShell>
 	<svelte:fragment slot="header">
 		<div
