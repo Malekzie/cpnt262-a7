@@ -59,7 +59,7 @@ export let dragonData = [
       {
         name: "Slade, The Nights Origin",
         src: "/images/dark-dragon.jpg",
-        habitat: "/images/dark-habitat.jpg",
+        habitat: "/images/shadow-habitat.jpg",
         textGradient: "",
         gradient: "bg-gradient-to-r from-gray-900 to-slate-400 bg-clip-text text-transparent",
         description: "Slade, The Night Bringer, The First Shadow. Born together with Puff, he is the opposite of him. He heralds the coming of the night and the one who banishes the light of the day. It is said that his name came from the first shade of darkness. And his name is the first name feared by humankind."
