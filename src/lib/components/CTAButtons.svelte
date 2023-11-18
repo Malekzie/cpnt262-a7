@@ -1,6 +1,6 @@
 <script>
 	export let ctaDescription = 'Click me';
-	export let link = './';
+	export let link = 'place link';
 </script>
 
 <div>
