@@ -15,6 +15,10 @@ export default {
 				'gradient-three': 'linear-gradient(270deg, #FFFFF7, #FBFBEB, #E2E2D4, #C9C9BC, #B5B5A9, #A3A398)',
 				'gradient-four': 'linear-gradient(180deg, #355070, #6D597a, #b56576, #e56b6f, #e88c7d, #eaac8b)'
       }),
+			dropShadow: {
+				'dark': '0 0 10px rgba(0, 0, 0, 0.5)',
+				'light': '0 0 10px rgba(255, 255, 255, 0.5)',
+			}
 		},
 	},
 	plugins: [
