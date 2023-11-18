@@ -2,7 +2,7 @@
 	export let year = new Date().getFullYear();
 </script>
 
-<footer class="py-4 border-t border-solid text-token bg-surface-600-900-token">
+<footer class="py-4 border-t border-solid text-token bg-surface-600-900-token h-[10rem]">
 	<div class="container px-4 mx-auto">
 		<div class="flex justify-between mt-5">
 			<div>

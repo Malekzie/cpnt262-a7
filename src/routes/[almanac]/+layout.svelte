@@ -1,15 +1,13 @@
 <script>
     import { AppShell } from '@skeletonlabs/skeleton';
-    import AlmanacPageSideBar from '../../lib/components/AlmanacPageSideBar.svelte';
-    import AlmanacPageHeader from '../../lib/components/AlmanacPageHeader.svelte';
+    import AlmanacPage from '../../lib/components/AlmanacPage.svelte';
 </script>
 
 <AppShell>
 	<svelte:fragment slot="sidebarLeft">
-        <AlmanacPageSideBar />
+        <AlmanacPage />
     </svelte:fragment>
 	<svelte:fragment slot="pageHeader">
-        <AlmanacPageHeader />
     </svelte:fragment>
 	<slot />
 </AppShell>
