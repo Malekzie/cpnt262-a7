@@ -5,7 +5,7 @@
 
 ## Search Queries
  1. Needing to figure out how to do a secondary layout
-  - Used keywords 'svelte' 'routing' 'advanced'
+    - Used keywords 'svelte' 'routing' 'advanced'
  2. Needing the specific SkeletonUI Libraries
     - Used keywords 'SkeletonUI' 'components' 'tabs' 'buttons'
 ## Attributions:
