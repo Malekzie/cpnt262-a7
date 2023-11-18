@@ -3,7 +3,7 @@
   import Booking from "../../lib/components/Booking.svelte";
 </script>
 
-<section class="mt-[7.5rem] mb-52">
+<section class="mt-[8rem] mb-52">
   <div class="mx-10 h-fill">
     <div class="flex flex-col gap-5 p-5 text-4xl rounded-lg bg-opacity-20 link-face bg-surface-500">
       <h1 class="text-6xl head">Dragon Sanctuary</h1>

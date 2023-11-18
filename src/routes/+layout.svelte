@@ -1,11 +1,9 @@
-<script>
+<script lang="ts">
 
 	import '../app.postcss';
 
 	import { AppShell, LightSwitch, initializeStores, storePopup, } from '@skeletonlabs/skeleton';
 	// Floating UI for Popups
-
-	import { Modal, getModalStore } from '@skeletonlabs/skeleton';
 	initializeStores();
 
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
@@ -14,7 +12,6 @@
 
 	import Footer from '../lib/components/Footer.svelte';
 </script>
-<Modal />
 <AppShell>
 	<svelte:fragment slot="header">
 		<div
