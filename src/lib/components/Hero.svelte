@@ -5,7 +5,7 @@
 <section class="h-screen hero">
 	<div class="flex flex-col justify-center pt-36">
 		<h1
-			class="bg-white text-8xl link-face bg-opacity-20 dark:bg-black dark:bg-opacity-20 w-[95%] text-center mx-auto"
+			class="bg-white text-6xl lg:text-8xl link-face bg-opacity-20 dark:bg-black dark:bg-opacity-20 w-[95%] text-center mx-auto"
 		>
 			Welcome to the Dragon Sanctuary
 		</h1>

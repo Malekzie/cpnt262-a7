@@ -17,7 +17,7 @@
 		<div
 			class="absolute flex justify-between w-full bg-opacity-75 bg-slate-500 trans dark:bg-slate-800 dark:bg-opacity-75 mb-36"  
 		>
-			<div class="p-5">
+			<div class="p-1 lg:p-5">
 				<span><img src="/images/logo.jpg" alt="Logo" class="w-20 h-auto" /></span>
 			</div>
 			<div class="p-5 text-center">
@@ -25,7 +25,7 @@
 					<LightSwitch class="rounded-lg" />
 				</div>
 			</div>
-			<ul class="flex justify-end gap-5 p-5 text-xl link-face">
+			<ul class="flex justify-end gap-5 lg:p-5 text-base lg:text-xl link-face">
 				<a href="/" class="px-5 py-5 transition-colors rounded-lg hover:scale-110">
 					<li>Home</li>
 				</a><a href="/plan" class="px-5 py-5 transition-colors rounded-lg hover:scale-110">
