@@ -1,11 +1,12 @@
 <script>
   import Attractions from "../../lib/components/Attractions.svelte";
   import Booking from "../../lib/components/Booking.svelte";
+  export let data;
 </script>
 
 <section class="mt-[8rem] mb-52">
   <div class="mx-10 h-fill">
-    <div class="flex flex-col gap-5 p-5 text-4xl rounded-lg bg-opacity-20 link-face bg-surface-500">
+    <div class="flex flex-col gap-2 p-5 text-2xl rounded-lg bg-opacity-20 link-face bg-surface-500">
       <h1 class="text-6xl head">Dragon Sanctuary</h1>
       <p>We don't just offer a once in a lifetime chance of viewing these majestic monarchs, we also offer some attractions not found in any other corner of the universe.</p>
       <p>Take your time browsing what we have in store for you, dear visitor!</p>
@@ -22,22 +23,16 @@
   </div>
 </section>
 
-<section id="attractions" class="static h-full">
+<section id="attractions" class="static my-5">
  <Attractions />
+ <div id="book">
+   <Booking />
+ </div>
 </section>
 
-<section id="book" class="h-full my-16">
-  <div>
-   <Booking />
-  </div>
-</section>
 
 <style>
-  .btn{
-    -webkit-animation: vibrate-3 1.5s linear infinite alternate backwards;
-	        animation: vibrate-3 1.5s linear infinite alternate backwards;
-
-  }
+ 
 
   .head{
     -webkit-animation: text-shadow-pop-top 1.5s ease-in-out infinite alternate both;

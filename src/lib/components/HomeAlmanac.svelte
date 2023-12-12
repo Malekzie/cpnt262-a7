@@ -12,7 +12,7 @@
 	}
 </script>
 
-<section class="px-10 pt-10">
+<section class="px-10 pt-10 my-5">
 	<div class="flex justify-between">
 		<NavigationButton buttonDescription="Previous" click={previousImage} />
 		<h2 class="text-3xl lg:text-5xl link-face gradient-heading">Dragon Almanac</h2>

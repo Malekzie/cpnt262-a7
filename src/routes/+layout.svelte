@@ -1,7 +1,7 @@
 <script lang="ts">
 
 	import '../app.postcss';
-
+	import { Modal } from '@skeletonlabs/skeleton';
 	import { AppShell, LightSwitch, initializeStores, storePopup, } from '@skeletonlabs/skeleton';
 	// Floating UI for Popups
 	initializeStores();
@@ -12,10 +12,11 @@
 
 	import Footer from '../lib/components/Footer.svelte';
 </script>
+<Modal />
 <AppShell>
 	<svelte:fragment slot="header">
 		<div
-			class="absolute flex justify-between w-full bg-opacity-75 bg-slate-500 trans dark:bg-slate-800 dark:bg-opacity-75 mb-36"  
+			class="relative flex justify-between w-full bg-opacity-75 bg-slate-500 trans dark:bg-slate-800 dark:bg-opacity-75 "  
 		>
 			<div class="p-1 lg:p-5">
 				<span><img src="/images/logo.jpg" alt="Logo" class="w-20 h-auto" /></span>
