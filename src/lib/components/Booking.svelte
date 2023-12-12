@@ -29,4 +29,5 @@
     <p>People going: {a}</p>
     <input type="range" bind:value="{a}" max="50" />
   </label>
+  <div class="m-2"><button class="rounded-lg btn variant-filled-primary hover:scale-105">Submit</button></div>
 </div>
