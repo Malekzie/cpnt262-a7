@@ -26,5 +26,6 @@
 <style>
 	.back {
 		background: url('/images/plan-trip-first.jpg') center bottom/cover no-repeat;
+		opacity: 0.7;
 	}
 </style>
