@@ -10,7 +10,7 @@
 	};
 </script>
 
-<button type="button" class="btn variant-ghost-tertiary rounded-xl" use:popup={popupHover}>
+<button type="button" class="btn variant-ghost-tertiary rounded-xl">
   <span>{content}</span>
 </button>
 <!-- Data on popup -->

@@ -1,14 +1,43 @@
-<script>
-	import { Modal, getModalStore } from '@skeletonlabs/skeleton';
-	const modalStore = getModalStore();
-
+<script lang="ts">
+	import { getDrawerStore } from '@skeletonlabs/skeleton';
+	import type { DrawerSettings, DrawerStore } from '@skeletonlabs/skeleton';
+	const drawerStore = getDrawerStore();
 	import LodgingButton from '$lib/components/LodgingButton.svelte';
+
+	// const drawer1 : DrawerSettings = {
+	// 	id: 'example-3',
+	// // Provide your property overrides:
+	// bgDrawer: 'bg-purple-900 text-white',
+	// bgBackdrop: 'bg-gradient-to-tr from-indigo-500/50 via-purple-500/50 to-pink-500/50',
+	// width: 'w-[180px] md:w-[480px]',
+	// padding: 'p-4',
+	// rounded: 'rounded-xl',
+	// };
+	// // drawerStore.open(drawer1);
+
+	// function trigger(position: 'left' | 'top' | 'right' | 'bottom'): void {
+	// 	const s: DrawerSettings = { id: 'demo', position };
+	// 	drawerStore.open(s);
+	// }
+	// function triggerStyled(): void {
+	// 	const drawerSettings: DrawerSettings = {
+	// 		id: 'demo',
+	// 		// Property Overrides
+	// 		position: 'left',
+	// 		bgDrawer: 'bg-purple-900 text-white',
+	// 		bgBackdrop: 'bg-gradient-to-tr from-indigo-500/50 via-purple-500/50 to-pink-500/50',
+	// 		width: 'w-[180px] md:w-[380px]',
+	// 		padding: 'p-4',
+	// 		rounded: 'rounded-xl',
+	// 		// Metadata
+	// 		meta: 'Styled Drawer'
+	// 	};
+	// 	drawerStore.open(drawerSettings);
+	// }
+
 	export let data;
-
-	
 </script>
-
-<section class="mt-[8rem] h-fill relative">
+<section class="relative h-fill">
 	<h1 class="mx-10 my-10 text-5xl text-center">
 		We know that sometimes, a longer trip has been planned so we've constructed some lodgings for
 		you to stay in!
@@ -30,8 +59,8 @@
 						{@html lodge.description}
 					</section>
 					<div class="flex justify-between m-5">
-						<button type="btn" class="btn variant-ghost-tertiary rounded-xl">Rent</button>
-						<LodgingButton content="Availablities" popups="{lodge.Available} rooms"/>
+						<button type="button" class="btn variant-ghost-tertiary rounded-xl">Rent</button>
+						<LodgingButton content="Availablities" />
 					</div>
 
 					<footer

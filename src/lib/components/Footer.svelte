@@ -7,14 +7,13 @@
 		<div class="flex justify-between mt-5">
 			<div>
 				<h3>Contact Us</h3>
-				<p>Email: info@mywebsite.com</p>
-				<p>Phone: 555-555-5555</p>
+				<p>Email: grapeberryfruit@gmail.com</p>
+				<p>Phone: 587-834-1921</p>
 			</div>
 			<div>
-				<h3>Location</h3>
-				<p>123 Main St.</p>
-				<p>Anytow
-          n, USA</p>
+				<h3>Location: </h3>
+				<p>16th St SE</p>
+				<p>Calgary, AB</p>
 			</div>
 			<div>
 				<h3>Hours of Operation</h3>

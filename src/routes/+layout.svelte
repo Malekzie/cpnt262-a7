@@ -1,7 +1,8 @@
 <script lang="ts">
 
 	import '../app.postcss';
-	import { Modal } from '@skeletonlabs/skeleton';
+	import { Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
+	import type { DrawerSettings, DrawerStore } from '@skeletonlabs/skeleton';
 	import { AppShell, LightSwitch, initializeStores, storePopup, } from '@skeletonlabs/skeleton';
 	// Floating UI for Popups
 	initializeStores();
@@ -17,7 +18,8 @@
 	}
 	
 </script>
-<Modal />
+<Drawer />
+
 <AppShell>
 	<svelte:fragment slot="header">
 		<div
