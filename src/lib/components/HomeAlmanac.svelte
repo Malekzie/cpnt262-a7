@@ -13,7 +13,7 @@
 </script>
 
 <section class="px-10 pt-10 my-5">
-	<div class="flex justify-between">
+	<div class="flex justify-evenly">
 		<NavigationButton buttonDescription="Previous" click={previousImage} />
 		<h2 class="text-3xl lg:text-5xl link-face gradient-heading">Dragon Almanac</h2>
 		<NavigationButton buttonDescription="Next" click={nextImage} />
