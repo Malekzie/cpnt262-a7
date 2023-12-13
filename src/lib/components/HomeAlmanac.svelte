@@ -12,14 +12,14 @@
 	}
 </script>
 
-<section class="h-full px-10 pt-10">
-	<div class="flex justify-between">
+<section class="px-10 pt-10 my-5">
+	<div class="flex justify-evenly">
 		<NavigationButton buttonDescription="Previous" click={previousImage} />
-		<h2 class="text-5xl link-face gradient-heading">Dragon Almanac</h2>
+		<h2 class="text-3xl lg:text-5xl link-face gradient-heading">Dragon Almanac</h2>
 		<NavigationButton buttonDescription="Next" click={nextImage} />
 	</div>
 	<div
-		class="flex mt-10 bg-black rounded-md bg-opacity-30 dark:bg-white dark:bg-opacity-50"
+		class="lg:flex p-1 mt-10 bg-black rounded-md bg-opacity-30 dark:bg-white dark:bg-opacity-50"
 		style="background-image: url({dragonData[currentImageIndex]
 			.habitat}); background-position:right; background-size: fill;"
 	>
@@ -28,7 +28,7 @@
 			src={dragonData[currentImageIndex].src}
 			alt={dragonData[currentImageIndex].name}
 		/>
-		<div class="w-full m-3 bg-white rounded-lg card-footer bg-opacity-30">
+		<div class="m-3 bg-white rounded-lg card-footer bg-opacity-30">
 			<div class="card-header">
 				<h3
 					class="text-center text-5xl font-bold heading-face {dragonData[currentImageIndex]

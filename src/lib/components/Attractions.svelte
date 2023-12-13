@@ -132,7 +132,7 @@
 							Visit us at The Cores Forge for an immersive experience where craftsmanship and magic
 							entwine. Discover the secrets of forging weapons that carry the essence of dragons,
 							and witness the skilled hands of artisans giving life to legends. Will you leave with
-							a weapon [30rem] overflow-auto for a dragon slayer or armor that echoes with the strength of mythical
+							a weapon for a dragon slayer or armor that echoes with the strength of mythical
 							creatures?
 						</p>
 					</div>
