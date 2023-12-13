@@ -8,5 +8,5 @@ import Prices from "../lib/components/Prices.svelte";
 <Hero />
 <!-- Make the habitat go side to side with animation -->
 <DragonGallery />
-<HomeAlmanac />
 <Prices />
+<HomeAlmanac />
