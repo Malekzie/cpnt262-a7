@@ -1,5 +1,6 @@
 <script>
 	let a = 1;
+
 </script>
 
 <div class="p-5 mx-16 mt-32 rounded-lg bg variant-glass-tertiary">
@@ -48,7 +49,7 @@
 		</label>
 
   <div class="m-2">
-    <button class="rounded-lg btn variant-filled-primary hover:scale-105">Submit</button>
+    <button class="rounded-lg btn variant-filled-primary hover:scale-105" on:click={() => setTimeout(() => {location.reload()}, 3000)}>Submit</button>
   </div>
 	</div>
 </div>

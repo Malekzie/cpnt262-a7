@@ -5,7 +5,6 @@
 </script>
 
 <section class="mt-[8rem] mx-10 w-screen h-fill">
-	{#each data.a_dragon as dragon}
 	<TabGroup justify="justify-center" >
 		<Tab bind:group={tabSet} name="tab1" value={0}>Indus</Tab>
 		<Tab bind:group={tabSet} name="tab2" value={1}>Markona</Tab>
@@ -426,5 +425,4 @@ Puff, Dawn's Luminary: A Saga of Primordial Radiance, Night's Sentinel, and the 
 				{/if}
 			</svelte:fragment>
 		</TabGroup>
-		{/each}
 </section>
