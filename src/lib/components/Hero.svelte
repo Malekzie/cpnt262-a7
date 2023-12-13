@@ -10,7 +10,7 @@
 			Welcome to the Dragon Sanctuary
 		</h1>
 		<p
-			class="bg-white text-2xl lg:text-3xl link-face bg-opacity-60 dark:bg-black rounded-lg dark:bg-opacity-60 w-[90%] text-center mx-auto mt-10"
+			class="bg-white text-2xl lg:text-3xl link-face bg-opacity-50 dark:bg-black rounded-lg dark:bg-opacity-50 w-[90%] text-center mx-auto mt-10"
 		>
 			These Wild and Eldritch beasts have been taken down as trophies and are encased in an
 			enclosure riddled with runes to prevent them from damaging you or escape! Witness their
