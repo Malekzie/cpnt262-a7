@@ -1,4 +1,4 @@
-<section class="grid grid-cols-2 gap-4 px-5 pt-10 mx-auto md:grid-cols-3 back">
+<section class="grid gap-4 px-5 pt-10 mx-auto md:grid-cols-3 back">
 	<div class="grid gap-4">
 		<div class="bg-white rounded-lg bg-opacity-40 dark:bg-black dark:bg-opacity-40">
 			<img class="h-auto max-w-full rounded-lg" src="/images/fire-dragon.jpg" alt="Fire Dragon" />
@@ -57,5 +57,6 @@
 		background: url('/images/gallery-backdrop.jpg') no-repeat;
 		background-size: cover;
 		background-position: center;
+	  padding-bottom: 2rem;
 	}
 </style>

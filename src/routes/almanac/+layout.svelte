@@ -5,7 +5,7 @@
 
 <AppShell>
 	<svelte:fragment slot="sidebarLeft">
-        <AlmanacPage />
+        <!-- <AlmanacPage /> -->
     </svelte:fragment>
 	<svelte:fragment slot="pageHeader">
     </svelte:fragment>
