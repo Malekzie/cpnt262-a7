@@ -3,7 +3,6 @@
   import Booking from "../../lib/components/Booking.svelte";
   export let data;
 </script>
-
 <section class="mt-[8rem] mb-52">
   <div class="mx-10 h-fill">
     <div class="flex flex-col gap-2 p-5 text-2xl rounded-lg bg-opacity-20 link-face bg-surface-500">

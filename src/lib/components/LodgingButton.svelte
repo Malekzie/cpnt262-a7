@@ -2,6 +2,7 @@
   import { popup } from '@skeletonlabs/skeleton';
   export let content = "enter content here"
   export let popups = "enter popups here"
+  
   const popupHover = {
 		event: 'hover',
 		target: 'popupHover',
