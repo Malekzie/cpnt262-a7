@@ -11,6 +11,11 @@
 
 
 	import Footer from '../lib/components/Footer.svelte';
+
+	function redirectTo(url) {
+		location.href = url;
+	}
+	
 </script>
 <Modal />
 <AppShell>
@@ -19,22 +24,33 @@
 			class="relative flex justify-between w-full bg-opacity-75 bg-slate-500 trans dark:bg-slate-800 dark:bg-opacity-75 "  
 		>
 			<div class="p-1 lg:p-5">
-				<span><img src="/images/logo.jpg" alt="Logo" class="w-20 h-auto" /></span>
+				<span><img src="/images/logo.jpg" alt="Logo" class="h-auto w-14" /></span>
 			</div>
 			<div class="p-5 text-center">
 				<div class="px-5 py-5">
-					<LightSwitch class="rounded-lg" />
+					<LightSwitch rounded="rounded-xl" bgLight="bg-surface-500" bgDark="bg-tertiary-500"/>
 				</div>
+			</div> 
+			<div class="flex justify-end gap-5 text-base lg:p-5 lg:text-xl link-face">
+				<button
+					class="p-3 transition-colors rounded-lg hover:scale-110 bg-slate-600"
+					on:click={() => redirectTo('/')}
+				>
+					Home
+				</button>
+				<button
+					class="p-3 transition-colors rounded-lg hover:scale-110 bg-slate-600"
+					on:click={() => redirectTo('/plan')}
+				>
+					Plan a trip
+				</button>
+				<button
+					class="p-3 transition-colors rounded-lg hover:scale-110 bg-slate-600"
+					on:click={() => redirectTo('/almanac')}
+				>
+					Dragon Almanac
+				</button>
 			</div>
-			<ul class="flex justify-end gap-5 lg:p-5 text-base lg:text-xl link-face">
-				<a href="/" class="px-5 py-5 transition-colors rounded-lg hover:scale-110">
-					<li>Home</li>
-				</a><a href="/plan" class="px-5 py-5 transition-colors rounded-lg hover:scale-110">
-					<li>Plan a trip</li>
-				</a><a href="/almanac" class="px-5 py-5 transition-colors rounded-lg hover:scale-110">
-					<li>Dragon Almanac</li>
-				</a>
-			</ul>
 		</div>
 	</svelte:fragment>
 
